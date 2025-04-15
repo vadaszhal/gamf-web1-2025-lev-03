@@ -1,0 +1,37 @@
+ ol li.important {
+        color:blue
+       }
+       li[disabled] {
+        opacity: 0.3;
+       }
+       .container>.row>.col-12 {
+        background-color: aliceblue
+       }
+       .col-12 {
+        background-color: green;
+       }
+table {
+        border: 1px solid black;
+        border-collapse: collapse;
+       }
+       table th, table td {
+              border: 1px solid black;
+              padding: 8px;
+             }
+ 
+
+table tbody tr:first-child {
+        background-color: lightblue;
+       }
+table tbody tr:nth-child(2) {
+        background-color: aliceblue;
+       }
+h1::first-letter{
+       
+        color: red;
+        
+       }
+h1 {
+       font-family: Arial, Helvetica, sans-serif;
+        
+       }
